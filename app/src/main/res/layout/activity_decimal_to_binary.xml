@@ -1,0 +1,25 @@
+<RelativeLayout android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/ipdb"
+        android:hint="ENTER DECIMAL NUMBER "
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        android:text="CONVERT"
+        android:id="@+id/cdb"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:hint="BINARY EQUIVALENT"
+    android:id="@+id/opdb"
+        android:textSize="30dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/ip1"
+        android:hint="ENTER NUMBER IN BINARY" />
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:layout_below="@+id/ip1"
+      android:layout_marginTop="10dp"
+      android:hint="ENTER NUMBER IN BINARY"
+      android:id="@+id/ip2"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ip2"
+        android:layout_marginLeft="70dp"
+        android:id="@+id/add"
+        android:onClick="addm"
+        android:text="ADD"
+        android:textSize="20dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ip2"
+        android:layout_marginLeft="180dp"
+        android:text="SUBTRACT"
+        android:onClick="subm"
+        android:textSize="20dp"
+        android:id="@+id/sub"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/sub"
+        android:textSize="30dp"
+        android:id="@+id/opbc"
+        android:text="OUTPUT"/>
+</RelativeLayout>

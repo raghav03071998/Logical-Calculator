@@ -1,0 +1,39 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Decimal to Binary"
+        android:id="@+id/db"
+        android:onClick="operation"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BINARY TO DECIMAL"
+        android:layout_below="@+id/db"
+        android:id="@+id/bd"
+        android:onClick="operation"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OCTAL TO BINARY"
+        android:layout_below="@+id/bd"
+        android:id="@+id/ob"
+        android:onClick="operation"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COMPLEMENT OF BINARY"
+        android:layout_below="@+id/ob"
+        android:id="@+id/cb"
+        android:onClick="operation"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cb"
+        android:text="BINARY CALCULATION"
+        android:id="@+id/bc"
+        android:onClick="operation"/>
+
+</RelativeLayout>

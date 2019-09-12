@@ -1,0 +1,31 @@
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/ipc"
+        android:hint="ENTER BINARY NUMBER"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ipc"
+        android:layout_marginLeft="50dp"
+        android:text="1's complement"
+        android:id="@+id/b1"
+        android:onClick="complement"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ipc"
+        android:layout_marginLeft="200dp"
+        android:text="2's complement"
+        android:id="@+id/b2"
+        android:onClick="complement"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/b1"
+        android:id="@+id/opc"
+        android:hint="COMPLEMENT "/>
+</RelativeLayout>

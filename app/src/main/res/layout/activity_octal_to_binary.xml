@@ -1,0 +1,24 @@
+<RelativeLayout android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/ipob"
+        android:hint="ENTER OCTAL NUMBER "
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        android:text="CONVERT"
+        android:id="@+id/cob"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:hint="BINARY EQUIVALENT"
+        android:id="@+id/opob"
+        android:textSize="30dp"/>
+</RelativeLayout>
